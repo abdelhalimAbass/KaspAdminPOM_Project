@@ -1,10 +1,9 @@
-package org.example;
+package org.example.Base_functionalites;
 
 import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.WebDriver;
 
-
-    public class TinyMCEHelper {
+public class TinyMCEHelper {
 
         public static void injectIntoTinyMCE(WebDriver driver, String editorId, String htmlContent) {
             // Make sure we're in the main window (not inside any iframe)

@@ -13,18 +13,6 @@ import java.util.concurrent.TimeUnit;
 public class Main {
     public static void main(String[] args) {
 
-        WebDriver driver =new ChromeDriver();
-        driver.manage().window().maximize();
-        login_page page1=new login_page(driver);
-        page1.login_cred("admin@example.com","123123123");
-        driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
-        create_fund_page1 fundcreation=new create_fund_page1(driver);
-        fundcreation.createFundPage1();
-        fundcreation.fund_name_en(driver);
-        fundcreation.termsConditoins(driver);
-        fundcreation.fundType(driver);
-        DataSheetpage page2=new DataSheetpage(driver);
-        //driver.quit();
 
         }
     }
